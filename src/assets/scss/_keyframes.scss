@@ -1,0 +1,50 @@
+﻿@-moz-keyframes lightbox {
+	0% {
+		transform: translateY(0px) scale(0.4);
+		opacity: 0;
+	}
+
+	50% {
+		transform: translateY(-50px) scale(0.7);
+		opacity: 0.5;
+	}
+
+	100% {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes lightbox {
+	0% {
+		transform: translateY(0px) scale(0.4);
+		opacity: 0;
+	}
+
+	50% {
+		transform: translateY(-50px) scale(0.7);
+		opacity: 0.5;
+	}
+
+	100% {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes lightbox {
+	0% {
+		transform: translateY(0px) scale(0.4);
+		opacity: 0;
+	}
+
+	50% {
+		transform: translateY(-50px) scale(0.7);
+		opacity: 0.5;
+	}
+
+	100% {
+		transform: translateY(0) scale(1);
+		opacity: 1;
+	}
+}
